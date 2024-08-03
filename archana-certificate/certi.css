@@ -1,0 +1,25 @@
+.container{
+    height: 400px;
+    width: 560px;
+    background-color: blueviolet;
+    position :relative;
+}
+.content{
+    position: absolute;
+    top: 0;
+    left:0;
+    height: 100%;
+    width: 100%;
+    /* background-color: brown; */
+    box-sizing: border-box;
+}
+.content h1 {
+    margin-top: 200px;
+}
+.content p{
+    margin: 40px;
+    margin-left: 340px;
+}
+.input{
+    text-align: center;
+}
